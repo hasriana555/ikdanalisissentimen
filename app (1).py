@@ -22,7 +22,7 @@ st.set_page_config(
 @st.cache_resource
 def load_model():
     model = joblib.load('model_svm_final.pkl')
-    tfidf = joblib.load('tfidf_vectorizer(1).pkl')
+    tfidf = joblib.load('tfidf_vectorizer.pkl')
     return model, tfidf
 
 @st.cache_resource
