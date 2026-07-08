@@ -11,7 +11,7 @@ import nltk
 # KONFIGURASI HALAMAN
 # =============================================
 st.set_page_config(
-    page_title="Analisis Sentimen IKD",
+    page_title="SVM",
     page_icon="📱",
     layout="centered"
 )
@@ -104,7 +104,7 @@ stemmer, all_sw, slang = load_preprocessing_tools()
 # =============================================
 # TAMPILAN
 # =============================================
-st.title("📱 SVM")
+st.title("📱 Analisis Sentimen Ulasan Pengguna Aplikasi IKD")
 st.markdown(
     "Prediksi sentimen ulasan pengguna aplikasi "
     "**Identitas Kependudukan Digital (IKD)** menggunakan "
